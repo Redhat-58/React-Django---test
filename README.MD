@@ -24,7 +24,7 @@ The project consists of two directories:
 - The frontend uses React for the user interface and Axios for API calls.
 - The Ethereum wallet balance is fetched using a third-party API (implementation details may vary).
 
-![Project Screenshot](/home/coco/Pictures/Screenshots/wallet_1.png)
-![Project Screenshot](/home/coco/Pictures/Screenshots/wallet_2.png)
+![Project Screenshot](/client/public/wallet_1.png)
+![Project Screenshot](/client/public/wallet_2.png)
 
 
