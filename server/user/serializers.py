@@ -34,9 +34,6 @@ class RegistrationSerializer(serializers.ModelSerializer):
         w3 = Web3(Web3.HTTPProvider(f'https://mainnet.infura.io/v3/{INFURA_PROJECT_ID}'))
         balance_wei = w3.eth.get_balance(user.wallet_address)
         user.eth_balance = w3.from_wei(balance_wei, 'ether')
-        print('wallet_address === ', user.wallet_address)
-        print('balance_wei === ', balance_wei)
-        print('user.eth_balance === ', user.eth_balance)
 
         password = self.validated_data["password"]
         password2 = self.validated_data["password2"]
